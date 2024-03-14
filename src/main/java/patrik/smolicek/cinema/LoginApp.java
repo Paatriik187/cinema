@@ -18,6 +18,7 @@ public class LoginApp extends Application {
             stage.setAlwaysOnTop(false);
             stage.show();
 
+
         }
 
         public static void main(String[] args) {launch();}
