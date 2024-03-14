@@ -18,7 +18,6 @@ public class MovieSelectionApp extends Application {
         stage.setAlwaysOnTop(false);
         stage.show();
         MovieSelectionController controller = fxmlLoader.getController();
-        controller.field();
     }
 
     public static void main(String[] args) {launch();}
