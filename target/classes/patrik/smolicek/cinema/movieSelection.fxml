@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="680.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="patrik.smolicek.cinema.MovieSelectionController">
+<AnchorPane prefHeight="680.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="patrik.smolicek.cinema.MovieSelectionController">
    <GridPane layoutX="14.0" layoutY="14.0" prefHeight="666.0" prefWidth="800.0">
      <columnConstraints>
          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -23,11 +23,11 @@
        <RowConstraints maxHeight="288.79999389648435" minHeight="10.0" prefHeight="272.8000122070312" vgrow="SOMETIMES" />
      </rowConstraints>
       <children>
-         <Group fx:id="Interstellar" onMouseClicked="#runmov"  GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <Group fx:id="Interstellar" onMouseClicked="#runmov" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true" styleClass="container">
                   <image>
-                     <Image url="@../../../images/Interstellar.jpg" />
+                     <Image url="@images/Interstellar.jpg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="196.0" maxWidth="151" text="Interstellar" textAlignment="CENTER">
@@ -41,7 +41,7 @@
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../images/avatar.jpg" />
+                     <Image url="@images/avatar.jpg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="200.0" maxWidth="151" text="Avatar" textAlignment="CENTER">
@@ -55,7 +55,7 @@
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../images/avengers.jpg" />
+                     <Image url="@images/avengers.jpg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="200.0" maxWidth="151" text="Avengers" textAlignment="CENTER">
@@ -69,7 +69,7 @@
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../images/heim.jpg" />
+                     <Image url="@images/heim.jpg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-7.0" layoutY="203.0" maxWidth="151" text="OppenHeimer" textAlignment="CENTER">
@@ -83,7 +83,7 @@
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../images/king.jpeg" />
+                     <Image url="@images/king.jpeg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="200.0" maxWidth="151" text="Lion King" textAlignment="CENTER">
@@ -97,7 +97,7 @@
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../images/mila.jpg" />
+                     <Image url="@images/mila.jpg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="196.0" maxWidth="151" text="Green Mile" textAlignment="CENTER">
@@ -111,7 +111,7 @@
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../images/gump.jpg" />
+                     <Image url="@images/gump.jpg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="196.0" maxWidth="151" text="Forrest Gump" textAlignment="CENTER">
@@ -125,7 +125,7 @@
             <children>
                <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../../../images/IT.jpg" />
+                     <Image url="@images/IT.jpg" />
                   </image>
                </ImageView>
                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="200.0" maxWidth="151" text="IT" textAlignment="CENTER">

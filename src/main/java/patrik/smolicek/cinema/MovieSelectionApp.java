@@ -17,7 +17,6 @@ public class MovieSelectionApp extends Application {
         stage.setResizable(false);
         stage.setAlwaysOnTop(false);
         stage.show();
-        MovieSelectionController controller = fxmlLoader.getController();
     }
 
     public static void main(String[] args) {launch();}
