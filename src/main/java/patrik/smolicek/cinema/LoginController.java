@@ -32,7 +32,6 @@ public class LoginController {
                 movieSelection.setAlwaysOnTop(false);
                 movieSelection.show();
                 MovieSelectionController controller = loader.getController();
-                controller.field();
             } catch (IOException e) {
                 e.printStackTrace();
             }
