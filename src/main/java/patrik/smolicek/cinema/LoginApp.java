@@ -17,6 +17,7 @@ public class LoginApp extends Application {
             stage.setResizable(false);
             stage.setAlwaysOnTop(false);
             stage.show();
+
         }
 
         public static void main(String[] args) {launch();}
