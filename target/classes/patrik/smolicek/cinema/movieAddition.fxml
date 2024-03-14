@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="150.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="patrik.smolicek.cinema.AdditionController">
+    <Label layoutX="12.0" layoutY="14.0" text="Meno filmu na pridanie:" />
+    <TextField fx:id="field" layoutX="12.0" layoutY="41.0" />
+    <Button layoutX="118.0" layoutY="83.0" onAction="#addMovie" text="Pridať" />
+    <Button layoutX="39.0" layoutY="83.0" onAction="#cancel" text="Zrušiť" />
+
+</AnchorPane>

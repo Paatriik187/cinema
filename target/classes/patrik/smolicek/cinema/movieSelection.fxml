@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="patrik.smolicek.cinema.MovieSelectionController">
+   <GridPane layoutX="14.0" layoutY="14.0" prefHeight="666.0" prefWidth="800.0">
+     <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints maxHeight="288.79999389648435" minHeight="10.0" prefHeight="269.6000122070312" vgrow="SOMETIMES" />
+       <RowConstraints maxHeight="288.79999389648435" minHeight="10.0" prefHeight="272.8000122070312" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+         <Group fx:id="Interstellar" onMouseClicked="#runmov"  GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true" styleClass="container">
+                  <image>
+                     <Image url="@../../../images/Interstellar.jpg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutY="196.0" maxWidth="151" text="Interstellar" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+         <Group fx:id="Avatar" onMouseClicked="#runmov" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../images/avatar.jpg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="200.0" maxWidth="151" text="Avatar" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+         <Group fx:id="Avengers" onMouseClicked="#runmov" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../images/avengers.jpg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="200.0" maxWidth="151" text="Avengers" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+         <Group fx:id="Oppenheimer" onMouseClicked="#runmov" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../images/heim.jpg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-7.0" layoutY="203.0" maxWidth="151" text="OppenHeimer" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+         <Group fx:id="LionKing" onMouseClicked="#runmov" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../images/king.jpeg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="200.0" maxWidth="151" text="Lion King" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+         <Group fx:id="GreenMile" onMouseClicked="#runmov" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../images/mila.jpg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutY="196.0" maxWidth="151" text="Green Mile" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+         <Group fx:id="ForrestGump" onMouseClicked="#runmov" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../images/gump.jpg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutY="196.0" maxWidth="151" text="Forrest Gump" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+         <Group fx:id="IT" onMouseClicked="#runmov" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <children>
+               <ImageView fitHeight="185.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../images/IT.jpg" />
+                  </image>
+               </ImageView>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="200.0" maxWidth="151" text="IT" textAlignment="CENTER">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Group>
+      </children>
+   </GridPane>
+
+</AnchorPane>

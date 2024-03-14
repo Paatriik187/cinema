@@ -1,0 +1,4 @@
+.rounded-corner {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+}
