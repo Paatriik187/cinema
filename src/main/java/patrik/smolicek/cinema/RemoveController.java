@@ -9,13 +9,13 @@ public class RemoveController {
     TextField field;
 
     public void remove(){
-        Customer a = null;
+        Customer c = null;
         for (Customer customer : SharedList.getList()) {
             if (Integer.parseInt(field.getText())== customer.getSeat()){
-                a= customer;
+                c= customer;
             }
         }
-        SharedList.removeList(a, windowTitle());
+        SharedList.removeList(c, windowTitle());
         Stage stage = (Stage) field.getScene().getWindow();
         stage.close();
     }

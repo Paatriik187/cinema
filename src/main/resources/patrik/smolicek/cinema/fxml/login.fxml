@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="300.0" prefWidth="400.0" stylesheets="@stylesheets.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="patrik.smolicek.cinema.LoginController">
+<BorderPane prefHeight="300.0" prefWidth="400.0" stylesheets="@../css/stylesheets.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="patrik.smolicek.cinema.LoginController">
     <top>
         <VBox alignment="CENTER">
             <Pane prefHeight="60.0" style="-fx-background-color: #57b846;">
