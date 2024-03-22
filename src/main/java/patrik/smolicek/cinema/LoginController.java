@@ -24,14 +24,13 @@ public class LoginController {
         if (usernameField.getText().equals(user) && passwordField.getText().equals(password)) {
             try {
                 Stage movieSelection = new Stage();
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("movieSelection.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("fxml/movieSelection.fxml"));
                 Scene scene = new Scene(loader.load(), 856, 680);
                 movieSelection.setScene(scene);
                 movieSelection.setTitle("Vyber filmu");
                 movieSelection.setResizable(false);
                 movieSelection.setAlwaysOnTop(false);
                 movieSelection.show();
-                MovieSelectionController controller = loader.getController();
             } catch (IOException e) {
                 e.printStackTrace();
             }

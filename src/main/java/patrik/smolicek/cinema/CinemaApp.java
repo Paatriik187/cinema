@@ -10,15 +10,14 @@ import java.io.IOException;
 public class CinemaApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(CinemaApp.class.getResource("cinema.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(CinemaApp.class.getResource("fxml/cinema.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        stage.setTitle("Kino listky");
+        stage.setTitle("Kinolistky");
         stage.setScene(scene);
         stage.setResizable(false);
         stage.setAlwaysOnTop(false);
         stage.show();
         CinemaController controller = fxmlLoader.getController();
-        controller.Numbering();
         controller.start();
 
     }

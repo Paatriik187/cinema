@@ -10,20 +10,14 @@ public class AddCustomerController {
     @FXML
     TextField Name;
     @FXML
-    TextField Seat;
+    Label Seat;
     @FXML
     Label error;
     @FXML
     Button cancel;
 
     public void addCustomer(){
-        if(Seat.getText().isEmpty()||Integer.parseInt(Seat.getText())>20||Integer.parseInt(Seat.getText())<1){
-        error.setText("Neplatné číslo sedačky");
-        }
-        else if(freeSeats(Integer.parseInt(Seat.getText()))){
-            error.setText("Miesto zabrané");
-        }
-        else if(Name.getText().isEmpty()){
+        if(Name.getText().isEmpty()){
             error.setText("Napíšte meno");
         }
         else{
@@ -33,6 +27,9 @@ public class AddCustomerController {
             Stage stage = (Stage) Name.getScene().getWindow();
             stage.close();
         }
+    }
+    public void SetSeatNumber(int num){
+        Seat.setText(String.valueOf(num));
     }
     public void cancel(){
         Stage stage = (Stage) cancel.getScene().getWindow();

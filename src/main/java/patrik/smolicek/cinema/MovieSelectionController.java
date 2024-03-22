@@ -17,7 +17,7 @@ public class MovieSelectionController {
     public void runmov(MouseEvent event){
         try {
             Stage stage = new Stage();
-            FXMLLoader fxmlLoader = new FXMLLoader(CinemaApp.class.getResource("cinema.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(CinemaApp.class.getResource("fxml/cinema.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 600, 400);
             stage.setTitle(((Node) event.getSource()).getId());
             stage.setScene(scene);
@@ -25,7 +25,6 @@ public class MovieSelectionController {
             stage.setAlwaysOnTop(false);
             stage.show();
             CinemaController controller = fxmlLoader.getController();
-            controller.Numbering();
             controller.start();
         } catch (IOException e) {
             e.printStackTrace();
